@@ -12,8 +12,8 @@ using omcabujas.Data;
 namespace omcabujas.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220823184646_secondmigration")]
-    partial class secondmigration
+    [Migration("20220825143438_initialmigration")]
+    partial class initialmigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
